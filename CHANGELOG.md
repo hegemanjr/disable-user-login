@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/hegemanjr/disable-user-login/compare/v2.1.7...v3.0.0) (2026-04-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* Minimum requirements raised from PHP 5.6 to 7.4 and WordPress 4.7 to 6.2.
+
+### Features
+
+* add PHP 7.4+ and WP 6.2+ compatibility checks ([c7132a7](https://github.com/hegemanjr/disable-user-login/commit/c7132a701ee7b6bf4254b4b0554641e515650ef5))
+* add pro upsell on plugin row, settings page, and readme ([06bc7f7](https://github.com/hegemanjr/disable-user-login/commit/06bc7f734f08391d3941321bca1c584fb18a4c2b))
+* add tabbed settings page with hooks for pro plugin ([00d4130](https://github.com/hegemanjr/disable-user-login/commit/00d41308a8d5a18fd55369b4477a1c474532a310))
+
+
+### Bug Fixes
+
+* "Disabled" column not persisting after page refresh ([#16](https://github.com/hegemanjr/disable-user-login/issues/16)) ([b5d95fc](https://github.com/hegemanjr/disable-user-login/commit/b5d95fcf33afa4bd185ed0fb4902d07aa65df5cf))
+* bulk action notices and profile checkbox consistency ([27db8fb](https://github.com/hegemanjr/disable-user-login/commit/27db8fbc4f6e6b4f899dc763314624b59bd320d9))
+* bump column filter priority and add multisite column hook ([#15](https://github.com/hegemanjr/disable-user-login/issues/15)) ([43ee3e5](https://github.com/hegemanjr/disable-user-login/commit/43ee3e53a7b5a727a7cf35a7ef00a7cc5a63bf15))
+* bump tested up to WordPress 6.9.4 ([70f16a1](https://github.com/hegemanjr/disable-user-login/commit/70f16a14176482eb5ea22be8d5461f510fd16ccf))
+* remove icon.svg so WordPress.org uses animated GIF icons ([f5a238e](https://github.com/hegemanjr/disable-user-login/commit/f5a238e16fee9d7484e870bf1e47c62d73812434))
+* shorten plugin description to fit 150 character limit ([c8f0ce7](https://github.com/hegemanjr/disable-user-login/commit/c8f0ce73e6a413314ec30da26bdcaf1466731405))
+* update plugin banner and icon assets ([92270b7](https://github.com/hegemanjr/disable-user-login/commit/92270b735759f0d02432c311c1b72b042af42876))
+* update plugin description to be more descriptive ([87399c5](https://github.com/hegemanjr/disable-user-login/commit/87399c5b091d7380155ef154a7223867a457bbc0))
+* widen Disabled column to prevent sort indicator wrapping ([d52b028](https://github.com/hegemanjr/disable-user-login/commit/d52b0282d913bb8a94f2349b9df0f9ac256dc0d1))
+
 ## [2.1.7](https://github.com/saintsystems/disable-user-login/compare/v2.1.6...v2.1.7) (2026-04-03)
 
 
